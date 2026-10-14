@@ -29,5 +29,10 @@ Four focused starter skills. No required subscription beyond the agent and servi
 
 Inspired by the business-context starter-kit approach in Nate Herk's AIS-OS: https://github.com/nateherkai/AIS-OS. This starter uses its own onboarding, wording, and workflows; it does not include Nate's branded frameworks or source files.
 
-## License and credit
-Created by **Kenneth Rebech**. Licensed under [MIT](LICENSE). If you redistribute copies or substantial portions, retain the copyright and license notice. See [credit and reuse guidelines](ATTRIBUTION.md) for required notices and suggested public credit.
+## License + attribution
+
+[MIT License](LICENSE). © 2026 Kenneth Rebech.
+
+Use, modify, and share freely under the MIT terms. Keep the copyright and license notice in copies or substantial portions of this kit. When sharing an adaptation, credit the original work rather than presenting it as entirely your own.
+
+See [ATTRIBUTION.md](ATTRIBUTION.md) for attribution details. The MIT license governs reuse; this section adds no separate advertising or public-credit requirement.

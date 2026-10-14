@@ -1,25 +1,19 @@
-# Credit and reuse
+# Attribution
 
-AI Operation System Starter Kit was created by **Kenneth Rebech**.
+AI Operation System Starter Kit. © 2026 Kenneth Rebech.
 
 Original project: https://github.com/MrRebech/ai-operation-system-starter-kit
 
-## Required under the MIT license
+## License
 
-When copying, redistributing, selling, or sharing copies or substantial portions of this starter kit, retain the copyright notice and full permission notice in LICENSE, including:
+This kit is shared under the [MIT License](LICENSE), following the same licensing approach as Nate Herk's [AIS-OS](https://github.com/nateherkai/AIS-OS/blob/main/LICENSE).
 
-> Copyright (c) 2026 Kenneth Rebech
+You may use, copy, modify, distribute, and sell the material under those terms. Copies or substantial portions must retain the copyright and permission notice in LICENSE. Keep that file with redistributed copies. Preserve applicable third-party notices for any third-party material you add.
 
-Keep LICENSE in redistributed repositories and packages. You may add your own copyright notice for your contributions, but do not replace the original notice for the material you reuse.
+MIT does not require a public credit in every video, course, or AI-generated output. There is no additional advertising requirement. LICENSE is the governing text.
 
-## Suggested visible credit
+## Inspiration and framework names
 
-If you share a fork, adaptation, tutorial, or course based on the kit, please add:
+Nate Herk's AIS-OS inspired the starter-kit approach. This repository contains its own onboarding and workflows; it does not include his Three Ms or Four Cs frameworks. Those framework names remain attributed to Nate Herk, and this project claims no ownership of them. No trademark claim is added for this kit.
 
-> Based on AI Operation System Starter Kit by Kenneth Rebech.
-
-Link that sentence to the original project where links are supported. This visible credit is a request, not an additional MIT license condition. MIT does not require a public shout-out for private use, a credit in every AI output, or a credit in every video. LICENSE is the governing text.
-
-## Other contributors
-
-The project acknowledges Nate Herk's AIS-OS as inspiration in README.md. Retain any applicable third-party license notices when adding third-party material. Attribution does not imply endorsement.
+Attribution does not imply endorsement.
