@@ -1,0 +1,26 @@
+# Private business workspace
+context/
+brand/
+sources/
+state/
+interviews/
+reports/
+decisions/
+archives/
+uploads/
+.agents/skills/*/
+!.agents/skills/onboard/
+!.agents/skills/bridge-the-gaps/
+!.agents/skills/check-my-setup/
+.claude/skills/*/
+!.claude/skills/onboard/
+!.claude/skills/bridge-the-gaps/
+!.claude/skills/check-my-setup/
+.env
+.env.*
+!.env.example
+.mcp.json
+*.log
+__pycache__/
+node_modules/
+.DS_Store
