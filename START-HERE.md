@@ -7,6 +7,7 @@ If received as a repository URL, fetch the files into a new local workspace usin
 No account connections are supplied by this repository. Discover the current agent's available tools, and guide the user through its supported authentication when needed. Obtain access through the service's normal secure flow.
 
 Other workflows, when requested:
+- Link Context: `.agents/skills/link-context/SKILL.md`
 - Bridge the Gaps: `.agents/skills/bridge-the-gaps/SKILL.md`
 - Check My Setup: `.agents/skills/check-my-setup/SKILL.md`
 

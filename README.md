@@ -14,6 +14,7 @@ The agent asks seven questions, researches the sources you choose, and saves a b
 ## Included workflows
 - **Onboard:** seven questions followed by focused research and your first business brief.
 - **Bridge the Gaps:** request five to ten questions, one at a time, to improve unclear context after onboarding.
+- **Link Context:** make a new file, folder, project, or source easy to find again.
 - **Check My Setup:** verify files, retrieval, and actual tool access with a short actionable report.
 
 Codex discovers `.agents/skills/`; Claude copies can be generated with `python scripts/sync_skills.py`. Other agents can read those same skill files directly through START-HERE.md. Tool authentication, native skill discovery, and scheduling vary by agent; no universal connector installation is promised.
@@ -24,6 +25,9 @@ New chats must open this workspace and load its operating instructions to use th
 Personal context, uploads, interviews, reports, and custom skills are gitignored. Keep your working copy private and review staged files before publishing. The public template contains no Kenneth-specific business data, credentials, or connected accounts.
 
 ## Design
-Only three starter skills. No required subscription beyond the agent and services you choose. No bundled autonomous agents or scheduled jobs. Add reusable skills after a useful workflow succeeds.
+Four focused starter skills. No required subscription beyond the agent and services you choose. No bundled autonomous agents or scheduled jobs. Add reusable skills after a useful workflow succeeds.
 
 Inspired by the business-context starter-kit approach in Nate Herk's AIS-OS: https://github.com/nateherkai/AIS-OS. This starter uses its own onboarding, wording, and workflows; it does not include Nate's branded frameworks or source files.
+
+## License and credit
+Created by **Kenneth Rebech**. Licensed under [MIT](LICENSE). If you redistribute copies or substantial portions, retain the copyright and license notice. See [credit and reuse guidelines](ATTRIBUTION.md) for required notices and suggested public credit.

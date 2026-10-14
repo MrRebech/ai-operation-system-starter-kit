@@ -10,10 +10,12 @@ archives/
 uploads/
 .agents/skills/*/
 !.agents/skills/onboard/
+!.agents/skills/link-context/
 !.agents/skills/bridge-the-gaps/
 !.agents/skills/check-my-setup/
 .claude/skills/*/
 !.claude/skills/onboard/
+!.claude/skills/link-context/
 !.claude/skills/bridge-the-gaps/
 !.claude/skills/check-my-setup/
 .env

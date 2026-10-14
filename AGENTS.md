@@ -18,7 +18,11 @@ Creating a skill does not authorize scheduling, sending, publishing, spending, d
 ## Tools and honesty
 Use supported tools already available before introducing dependencies. Record a connection as verified only after a successful relevant read in this environment, with date and scope. Connection registries are historical evidence, not proof of current access. Public profiles may still block unauthenticated access; test them. Private posts need an authorized connector or user-provided export. Never bypass access restrictions.
 
+## Attribution
+Preserve LICENSE and its copyright notice when copying or redistributing the starter kit. See ATTRIBUTION.md for credit guidance; do not insert promotional credit into unrelated business outputs.
+
 ## Included skills
 - Onboard: seven-question initial setup and research.
 - Bridge the Gaps: user-requested post-onboarding interview, five to ten questions.
+- Link Context: register a new source or project in the appropriate index and verify the route.
 - Check My Setup: user-requested evidence-based readiness check.
