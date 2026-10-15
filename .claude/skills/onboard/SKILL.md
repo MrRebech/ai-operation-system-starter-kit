@@ -31,7 +31,7 @@ Reuse existing canonical equivalents. Save supported facts with dates and source
 - `context/business.md`, `customer.md`, `goals.md`: business, customer, and direction.
 - `context/working-with-me.md`: communication preferences and the safe default action boundaries from AGENTS.md, plus any explicit scoped permissions.
 - `brand/style.md`: current guide, actual logo/asset routes, verified color codes, fonts, visual rules, and unresolved choices. Save supplied assets in `brand/assets/` as needed.
-- `brand/voice.md`: routes to provided samples in `brand/samples/`, observed voice, and uncertainty.
+- `brand/voice.md`: routes to provided samples in `brand/samples/`, observed voice, and uncertainty. Link the bundled `guides/voice-and-style.md` as the shared baseline; keep personal facts out of the shared guide.
 - `brand/writing-rules.md` when supplied: the owner's prohibited words, phrases, sentence patterns, punctuation, scope, and exceptions. Link the original and date. Do not infer a hard ban from a single sample or replace an explicit ban with generic Human Speak exceptions.
 - `sources/index.md`: source purpose, scope, exact location, access method, successful read date, coverage, and blockers.
 - `state/onboarding.md`: answers, phase, saved paths, unresolved items, and completion status.

@@ -16,6 +16,8 @@ The agent asks seven quick questions: business, customer, context, voice, brand,
 - **Link Context:** Records where new files, folders, and sources live, what they contain, and when the AI should use them.
 - **Check My Setup:** Checks your context, access, workflows, and operating routines. Gives an evidence-based score out of 100 and up to three useful next steps.
 
+The bundled [voice and style guide](guides/voice-and-style.md) and full [phrase library](.agents/skills/human-speak/references/patterns.md) provide reusable writing rules without personal names or biography. They load automatically, even before a user adds their own samples.
+
 Your brand, voice, writing restrictions, and communication preferences guide future work. Natural-writing guidance runs automatically. It preserves your style and explicit rules.
 
 ## Private by default

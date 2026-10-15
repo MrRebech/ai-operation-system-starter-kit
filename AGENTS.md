@@ -5,7 +5,7 @@ For a setup request, follow START-HERE.md immediately. Read `state/onboarding.md
 
 At the start of work, read `context/working-with-me.md` when present. For business work, read `context/business.md` and `context/goals.md`; use `context/index.md` to select deeper context. For customer-facing work, load `context/customer.md`.
 
-Before writing, read `brand/voice.md` and any linked writing restrictions (normally `brand/writing-rules.md`). Apply `.agents/skills/human-speak/SKILL.md` to ordinary replies and drafted prose automatically. Keep the owner's explicit rules and authentic voice ahead of generic editing preferences. Use this quietly, without a skill announcement or editing report unless requested. Do not reread unchanged files between interview questions.
+Before writing, load the shared `guides/voice-and-style.md` and, when present, `brand/voice.md` and linked owner restrictions (normally `brand/writing-rules.md`). The shared guide and complete phrase library are bundled in this repo and apply even before personal context exists. Apply `.agents/skills/human-speak/SKILL.md` to ordinary replies and drafted prose automatically. Keep the owner's explicit rules and authentic voice ahead of generic editing preferences. Use this quietly, without a skill announcement or editing report unless requested. Do not reread unchanged files between interview questions.
 
 Before visual work, including websites, brochures, slides, and social graphics, read `brand/style.md`, follow its route to the current guide and approved logo/assets, and actually use them. Check the result against those rules before delivery. Do not substitute guessed colors or a recreated logo for supplied assets. Record a missing asset or unresolved conflict honestly.
 
