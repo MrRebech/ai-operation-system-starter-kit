@@ -1,38 +1,35 @@
 # AI Operation System Starter Kit
 
-A simple starting point for business owners using an AI agent with local files and tools.
+A starting point for business owners who want an AI agent to understand their business and do useful work.
 
 ## Start here
-Download and extract this repository into a new folder. Open that folder in Codex, Claude Code, Hermes, or another capable agent. Send:
+Download this repository into a new folder. Open it in a file-capable agent and say:
 
 > Read START-HERE.md and start my onboarding.
 
-Sharing a repository link works only if your agent can fetch it and create a local workspace. A clone or download alone does not launch a conversation. Never paste passwords or API keys into the interview.
+A repository link also works when your agent can fetch it into a workspace. Downloading files alone does not start a conversation.
 
-The agent asks seven questions, researches the sources you choose, and saves a business brief plus reusable business context. It creates a brand PDF when its environment supports PDF generation. You can pause and resume.
+The agent asks seven quick questions: business, customer, context, voice, brand, working style, and direction. Research and connection setup happen after the questions. It saves your answers so you can pause and resume. Once your context is saved, you choose the first task. No sample posts or demo work are required.
 
-## Included workflows
-- **Onboard:** seven questions followed by focused research and your first business brief.
-- **Bridge the Gaps:** request five to ten questions, one at a time, to improve unclear context after onboarding.
-- **Link Context:** make a new file, folder, project, or source easy to find again.
-- **Check My Setup:** verify files, retrieval, and actual tool access with a short actionable report.
+## Available skills
+- **Bridge the Gaps:** Asks focused questions to fill missing information and clear up confusion about your business.
+- **Link Context:** Records where new files, folders, and sources live, what they contain, and when the AI should use them.
+- **Check My Setup:** Checks your context, access, workflows, and operating routines. Gives an evidence-based score out of 100 and up to three useful next steps.
 
-Codex discovers `.agents/skills/`; Claude copies can be generated with `python scripts/sync_skills.py`. Other agents can read those same skill files directly through START-HERE.md. Tool authentication, native skill discovery, and scheduling vary by agent; no universal connector installation is promised.
-
-New chats must open this workspace and load its operating instructions to use the saved context. This does not install global memory across unrelated chats.
+Your brand, voice, writing restrictions, and communication preferences guide future work. Natural-writing guidance runs automatically. It preserves your style and explicit rules.
 
 ## Private by default
-Personal context, uploads, interviews, reports, and custom skills are gitignored. Keep your working copy private and review staged files before publishing. The public template contains no Kenneth-specific business data, credentials, or connected accounts.
+Never share API keys, passwords, or confidential information in chat. Use supported secure connection flows. When an API is a usable fallback, the agent prepares an ignored local `.env` file and shows where to enter the key. `.env.example` contains empty examples only. Accounts and connectors are not bundled.
 
-## Design
-Four focused starter skills. No required subscription beyond the agent and services you choose. No bundled autonomous agents or scheduled jobs. Add reusable skills after a useful workflow succeeds.
+Business context, assets, interviews, reports, outputs, and custom skills are gitignored. Review staged files before publishing. The template contains no owner's private business data. Consequential external actions require approval unless the user has given clear, scoped standing permission.
 
-Inspired by the business-context starter-kit approach in Nate Herk's AIS-OS: https://github.com/nateherkai/AIS-OS. This starter uses its own onboarding, wording, and workflows; it does not include Nate's branded frameworks or source files.
+## How it works
+Canonical skills live in `.agents/skills/`. Claude discovery copies are included in `.claude/skills/`; update them with `python scripts/sync_skills.py` after editing. Other agents can read START-HERE.md and the skill files directly. Native discovery, authentication, and scheduling depend on the host.
 
-## License + attribution
+New chats must open this workspace and load its instructions. This does not create global memory across unrelated chats. The kit installs no scheduled jobs. A setup score reflects verified readiness, not the volume of uploaded material or a guarantee of correctness.
 
-[MIT License](LICENSE). © 2026 Kenneth Rebech.
+## Maintenance
+Run `python -m unittest discover -s tests -v` for the credential-file and scoring checks. Review the behavioral cases in [tests/behavioral-review.md](tests/behavioral-review.md) when changing the workflows. Keep both skill copies synchronized.
 
-Use, modify, and share freely under the MIT terms. Keep the copyright and license notice in copies or substantial portions of this kit. When sharing an adaptation, credit the original work rather than presenting it as entirely your own.
-
-See [ATTRIBUTION.md](ATTRIBUTION.md) for attribution details. The MIT license governs reuse; this section adds no separate advertising or public-credit requirement.
+## License and credits
+[MIT License](LICENSE). Copyright 2026 Kenneth Rebech. The interview, linking, and audit workflows adapt ideas from Nate Herk's AIS-OS. Natural-writing guidance adapts his Human Speak project. See [ATTRIBUTION.md](ATTRIBUTION.md) and [LICENSES](LICENSES) for upstream notices.

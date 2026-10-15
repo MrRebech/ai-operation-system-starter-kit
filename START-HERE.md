@@ -1,14 +1,11 @@
 # Begin setup
 
-Read AGENTS.md, then `.agents/skills/onboard/SKILL.md`. When the user asks to set up this starter, begin the interview immediately, one question at a time. Do not ask a preliminary permission question.
+Read AGENTS.md, then `.agents/skills/onboard/SKILL.md`. For a setup request, begin immediately with the first unanswered question. Do not ask permission to start.
 
-If received as a repository URL, fetch the files into a new local workspace using the tools available. Preserve any existing project and its instructions. If you cannot fetch files or write locally, explain that a file-capable agent is required; do not claim installation succeeded.
+If received as a repository URL, fetch it into a new local workspace with available tools, preserving existing projects and instructions. A download alone does not launch a conversation. If you cannot fetch or save files, explain that a file-capable agent is needed; do not claim installation succeeded.
 
-No account connections are supplied by this repository. Discover the current agent's available tools, and guide the user through its supported authentication when needed. Obtain access through the service's normal secure flow.
+Keep the interview fast. Save each answer in one small checkpoint and ask the next question. No web research, account setup, folder inspection, brand work, or generated samples between questions. After all seven, connect the selected sources, research, and save the foundation.
 
-Other workflows, when requested:
-- Link Context: `.agents/skills/link-context/SKILL.md`
-- Bridge the Gaps: `.agents/skills/bridge-the-gaps/SKILL.md`
-- Check My Setup: `.agents/skills/check-my-setup/SKILL.md`
+Skills live in `.agents/skills/`. The repository includes Claude discovery copies in `.claude/skills/`; after edits, run `python scripts/sync_skills.py` if Python is available. Otherwise copy the changed skills and their references. Other agents should read the canonical skills directly or follow their supported discovery conventions. Do not assume discovery or tool access works because files exist.
 
-The canonical skills live under `.agents/skills/`. For Claude's native skill discovery, run `python scripts/sync_skills.py` when Python is available. Without Python, copy those skill folders into `.claude/skills/`. For other agents, follow their installed version's discovery conventions or read the canonical files directly. Never assume a copied skill is automatically discovered.
+No account connections or scheduled jobs are supplied. Use the host's supported secure connection flow only after the interview. Never ask for secrets in chat.

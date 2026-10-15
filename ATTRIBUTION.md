@@ -1,19 +1,13 @@
 # Attribution
 
-AI Operation System Starter Kit. © 2026 Kenneth Rebech.
-
+AI Operation System Starter Kit. Copyright 2026 Kenneth Rebech.
 Original project: https://github.com/MrRebech/ai-operation-system-starter-kit
 
-## License
+This kit is distributed under [MIT](LICENSE). Retain its copyright and permission notice with copies or substantial portions. No promotional credit is required in unrelated business outputs.
 
-This kit is shared under the [MIT License](LICENSE), following the same licensing approach as Nate Herk's [AIS-OS](https://github.com/nateherkai/AIS-OS/blob/main/LICENSE).
+## Included and adapted work
+- [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS): Link Context, Bridge the Gaps, and Check My Setup adapt its link, grill-me, and audit approaches. The four-category assessment and evidence/history practices are adapted for this kit; its rubric is not claimed to be identical to upstream. See [AIS-OS license](LICENSES/AIS-OS.txt).
+- [Nate Herk's Human Speak](https://github.com/nateherkai/human-speak): the Human Speak entry skill is adapted for automatic workspace use. Its patterns, evaluation, and top-20 reference files are included, with owner preferences taking priority. See [license](LICENSES/human-speak.txt) and [upstream notices](LICENSES/human-speak-NOTICES.md).
+- Human Speak credits [Peter Yang's No AI Slop](https://github.com/petergyang/no-ai-slop). Its MIT notice is retained in [LICENSES/no-ai-slop.txt](LICENSES/no-ai-slop.txt).
 
-You may use, copy, modify, distribute, and sell the material under those terms. Copies or substantial portions must retain the copyright and permission notice in LICENSE. Keep that file with redistributed copies. Preserve applicable third-party notices for any third-party material you add.
-
-MIT does not require a public credit in every video, course, or AI-generated output. There is no additional advertising requirement. LICENSE is the governing text.
-
-## Inspiration and framework names
-
-Nate Herk's AIS-OS inspired the starter-kit approach. This repository contains its own onboarding and workflows; it does not include his Three Ms or Four Cs frameworks. Those framework names remain attributed to Nate Herk, and this project claims no ownership of them. No trademark claim is added for this kit.
-
-Attribution does not imply endorsement.
+Exact reviewed upstream revisions are recorded in [upstream-sources.json](upstream-sources.json). The Claude skill copies carry the same provenance. Future updates must preserve notices and review behavior before replacement. Framework names remain attributed to their original authors; no ownership or endorsement is implied.

@@ -1,14 +1,22 @@
 ---
 name: check-my-setup
-description: Check whether a AI Operation System Starter Kit workspace can retrieve its business context and access its selected sources. Use when the user asks to verify setup, readiness, missing context, or broken connections.
+description: Audit business context, source access, reusable workflows, and operating habits using fresh evidence. Use when asked to check setup, readiness, gaps, reliability, or a setup score.
 ---
 
-Read AGENTS.md and the context index. Inspect current files and links; do not assume a previous report or registry proves present access. Check:
-1. Business, customer, goals, working preferences, voice, and brand context exist and contain useful information rather than placeholders.
-2. Index routes resolve, and a future session can find the current offer, customer, near-term result, brand colors, and one deeper source using those routes. Cite the evidence for each probe; do not claim a fresh-session test unless one was actually run.
-3. Business facts carry relevant sources/dates; old-company material and tentative ideas are distinguished. Age alone does not prove a fact is false.
-4. For selected connections, attempt a minimal authorized read if available. Report verified now, blocked, not configured, or not tested. Do not install connectors, change permissions, or read unrelated private material to improve a score.
-5. Brand text and PDF agree when the PDF exists; logo and sample references resolve. Report missing PDF generation honestly.
-6. Canonical skills and any generated Claude copies agree; other agent compatibility is verified only where actually exercised.
+Read AGENTS.md, the context and source indexes, and [references/rubric.md](references/rubric.md). Use [references/history.md](references/history.md) for saved reports and comparisons. This is a requested audit, not a mandatory onboarding step.
 
-Save a unique dated report under reports/setup-checks/ with status Ready, Ready with gaps, or Needs setup, evidence, access limitations, and at most three prioritized fixes. No numeric score. A missing required business foundation means Needs setup; an optional blocked source means Ready with gaps. Do not automatically repair context or reconnect services. Summarize the useful result briefly.
+## Inspect without repairing
+Identify the actual workspace, runtime, requested scope, and latest comparable report. Read current evidence rather than trusting previous scores. Check the existing runtime's entry instructions and skill discovery routes. Require mirrors only for runtimes actually supported or in use; a documented bridge is valid. Do not treat unused templates or scratch files as missing business context.
+
+Run five retrieval probes through the existing routes: current offer, customer/problem, 90-day goal, current brand/voice rules, and one priority deeper source. Cite paths and evidence. A same-session probe is not a fresh-session test; say what was actually exercised.
+
+Attempt minimal authorized reads for selected priority sources. Distinguish verified now, blocked, not configured, and not tested. Check authority, dates, conflicting sources, actual logo/voice routes, and required writing restrictions. Old facts are not false merely because of age.
+
+Inspect up to three priority workflows, their acceptance criteria, actual output evidence, failures, permissions, and recovery. Inspect operating routines from recorded runs; do not run consequential actions or create schedules to prove readiness. If no priority workflows are defined, record that gap instead of inventing them.
+
+Score only with the rubric. A new setup may be low because operational evidence is missing; never force a low starting score. More files, meetings, or repeated audits alone earn nothing. Learning can improve context while other categories remain unchanged. A score may drop when sources break, evidence becomes stale, or conflicts emerge. Explain that 100% means the rubric's checks are met, not that the AI knows everything or is guaranteed safe.
+
+## Report
+Keep the audit read-only except for a unique local report under reports/setup-checks/. Do not update context, decision logs, credentials, permissions, installed skills, or connections. No demo content or external writes.
+
+Give the overall score as "X/100 (X%) setup readiness", category totals, evidence confidence/limits, changes since a comparable audit, and at most three prioritized next steps. For an incomplete audit, label the result partial and withhold the overall score rather than converting untested areas to zero. Save evidence and criterion detail in the report; keep the chat summary short. Offer fixes without executing them.

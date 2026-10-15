@@ -1,19 +1,19 @@
 ---
 name: link-context
-description: Make a new file, folder, project, or online source findable in the business workspace by adding a verified route to the appropriate context or source index. Use when adding context or asking the AI to remember where information lives.
+description: Register where a file, folder, project, or online source lives and when to use it, then verify the route. Use when adding sources or asking the AI to remember where information lives.
 ---
 
-Read AGENTS.md and the relevant existing index. Resolve workspace paths from the project root. Identify the target and its intended use from the request; ask one concise question only when either is unclear.
+Read AGENTS.md and the relevant indexes. Identify the actual workspace root and intended target. If the source or its purpose is ambiguous, ask one concise question. Do not guess a similarly named folder.
 
-Inspect the target using available authorized tools. Check that a local path resolves, or that an online source can actually be read. A public URL may still block access. Do not install a connector, widen permissions, or copy private content just to register a source. If access is unavailable, record the exact reference as unverified with its blocker; never claim it was tested successfully.
+Inspect the target through authorized tools: confirm existence, purpose, and the useful entry point. For a folder, identify its index or the relevant starting document; do not list every file. For an online source, use a stable link or service identifier and one minimal read. A URL alone is not evidence of access. If blocked, save the exact user-supplied reference as unverified with its blocker.
 
-Choose the smallest useful route:
-- Business context files belong in context/index.md, with a brief explanation of when to read them.
-- External tools, source folders, meetings, channels, and reference material belong in sources/index.md, with purpose, business scope, location, access method, verification date, and limitations.
-- Project-specific material belongs in the project's existing index, with one route from the business index if needed.
+Create the smallest route: **when this information is needed -> exact target -> where to start**.
+- Business context belongs in context/index.md.
+- External folders, meeting platforms, and source collections belong in sources/index.md, with purpose, business scope, access method, date, coverage, and limitations.
+- Project material belongs in its existing project index, with a parent route only if needed.
 
-Reuse canonical indexes and update an existing entry rather than duplicating it. Prefer relative paths for files within the workspace, and durable links or service identifiers for online sources. Do not move originals or bulk-import content unless requested. Linking a source does not make everything in it a confirmed current business fact. Keep old-company material, client work, and tentative plans scoped explicitly.
+Inspect existing routes before editing. Update an existing route if necessary; if already correct, make no edit. Keep deep details in their canonical source. Prefer relative local paths and durable online identifiers. Do not duplicate source contents across manuals.
 
-Retain access boundaries: a registered source is not permission for ongoing monitoring or unrelated reads. Keep secrets and private source indexes out of public commits. Do not change strategy, customer avatar, or products while merely registering a source.
+Follow the saved route from the workspace entry instructions through the index to the actual target. Report the path edited, what the source helps with, and whether retrieval worked or remains blocked. Preserve existing working routes if the new source cannot be resolved.
 
-After saving, follow the new route from the index and verify that it identifies the intended target. Report the index updated, what the source is useful for, and whether access is verified or blocked. If the target cannot be resolved, leave existing working routes intact and explain the limitation.
+Linking does not confirm every source claim, authorize broad research, install connectors, change global memory, move/delete originals, or grant external write permissions. Keep old business, client, draft, and current material clearly scoped. Do not change business strategy while registering a source.
